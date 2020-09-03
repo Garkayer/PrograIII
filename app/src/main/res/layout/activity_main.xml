@@ -30,7 +30,7 @@
                 android:layout_height="match_parent">
 
                 <RelativeLayout
-                    android:id="@+id/tabMonedas"
+                    android:id="@+id/tabNuestro"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical">
@@ -51,7 +51,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="100dp"
                         android:layout_marginTop="40dp"
-                        android:entries="@array/Monedas" />
+                        android:entries="@array/Nuestro" />
 
                     <TextView
                         android:id="@+id/lblAM"
@@ -67,7 +67,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="100dp"
                         android:layout_marginTop="90dp"
-                        android:entries="@array/Monedas" />
+                        android:entries="@array/Nuestro" />
                 </RelativeLayout>
 
                 <RelativeLayout
@@ -90,7 +90,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="100dp"
                         android:layout_marginTop="40dp"
-                        android:entries="@array/Longitud" />
+                        android:entries="@array/Àrea" />
 
                     <TextView
                         android:id="@+id/lblAL"
@@ -106,7 +106,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="100dp"
                         android:layout_marginTop="90dp"
-                        android:entries="@array/Longitud" />
+                        android:entries="@array/Àrea" />
                 </RelativeLayout>
 
             </FrameLayout>

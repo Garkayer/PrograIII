@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         tbhConversores.setup();
 
 
-        tbhConversores.addTab(tbhConversores.newTabSpec("M").setContent(R.id.tabMonedas).setIndicator("Monedas"));
+        tbhConversores.addTab(tbhConversores.newTabSpec("M").setContent(R.id.tabNuestro).setIndicator("Nuestro"));
         tbhConversores.addTab(tbhConversores.newTabSpec("L").setContent(R.id.tabÀrea).setIndicator("Àrea"));
 
 
@@ -36,8 +36,8 @@ public class MainActivity extends AppCompatActivity {
 
             Spinner spn;
             double valores[][] = {
-                    new double[]{1, 0.84, 7.67169, 24.5016, 34.76, 8.75, 22.03, 6.91, 802.50, 3784.05,},//monedas
-                    new double[]{1, 0.1329421, 0.111111, 0.092903, 0.00014775, 0.00001319, 0.000009,}, //longitud
+                    new double[]{1, 0.84, 7.67169, 24.5016, 34.76, 8.75, 22.03, 6.91, 802.50, 3784.05,},//Nuestrp
+                    new double[]{1, 0.1329421, 0.111111, 0.092903, 0.00014775, 0.00001319, 0.000009,}, //Àrea
 
             };
             int de = 0, a = 0;
@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
                     de = spn.getSelectedItemPosition();
                     spn = (Spinner) findViewById(R.id.cboAM);
                     a = spn.getSelectedItemPosition();
-                    resp = valores[0][a] / valores[0][de] * cantidad;
+                    resp = valores[0][a] / valores[0][de] / cantidad;
                     break;
                 case "L":
                     spn = (Spinner) findViewById(R.id.cboDeL);

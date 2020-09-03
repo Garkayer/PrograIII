@@ -2,20 +2,20 @@
     <string name="app_name">Conversores</string>
 
 
-    <string-array name="Monedas">
-        <item>Dólar Estadounidense</item>
-        <item>Euro</item>
-        <item>Quetzal Guatemalteco</item>
-        <item>Lempira Hondureña</item>
-        <item>Cordoba</item>
-        <item>Colón Salvadoreño</item>
-        <item>Peso Mexicano</item>
-        <item>Boliviano</item>
-        <item>Peso Chileno</item>
-        <item>Peso Colombiano</item>
+    <string-array name="Nuestro">
+        <item>En desarrollo...</item>
+        <item>En desarrollo...</item>
+        <item>En desarrollo...</item>
+        <item>En desarrollo...</item>
+        <item>En desarrollo...</item>
+        <item>En desarrollo...</item>
+        <item>En desarrollo...</item>
+        <item>En desarrollo...</item>
+        <item>En desarrollo...</item>
+        <item>En desarrollo...</item>
     </string-array>
 
-    <string-array name="Longitud">
+    <string-array name="Àrea">
         <item>Pie Cuadrado</item>
         <item>Vara Cuadrada</item>
         <item>Yarda Cuadrada</item>
