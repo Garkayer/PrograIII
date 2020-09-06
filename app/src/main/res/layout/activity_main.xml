@@ -4,9 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#00BE62F0"
+    android:background="@color/colorAccent"
     android:focusableInTouchMode="true"
-    android:foreground="@drawable/ic_launcher_foreground"
     tools:context=".MainActivity">
 
 
